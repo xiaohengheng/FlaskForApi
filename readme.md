@@ -157,11 +157,16 @@ return:
         "secret": "1234567",
         "type": 100
     }
+    
+    
 return:
+
 
     {
         "token": "eyJhbGciOiJIUzUxMiIsImlhdCI6MTU1Njk2MDE5NiwiZXhwIjoxNTU5NTUyMTk2fQ.eyJ1aWQiOjEsInR5cGUiOjEwMCwic2NvcGUiOiJBZG1pblNjb3BlIn0.Kgn0DPMxhatd090tkDWB_FTX7Unc_mMkmkVz2LNQLgG9AYHt-SpM__QCFmr-ka2g97Pr7gIbtuiRb75HI6XrRw"
     }
+
+
 3. 获取当前用户信息 HTTP header中携带该token信息
     
     
