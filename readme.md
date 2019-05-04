@@ -37,7 +37,7 @@ Flask为web微型服务框架,目录结构原则上可自由设计,本项目提�
 
 
 ## 重要概念
-####Redprint(app/libs/redprint.py)  
+### Redprint(app/libs/redprint.py)  
 
 项目工程化的设计规范
    
@@ -84,7 +84,7 @@ Flask为web微型服务框架,目录结构原则上可自由设计,本项目提�
    
    这种设计为了更好的维护整个项目工程的路由结构,并增加API路由的可读性
 
-###APIException (app/libs/error.py)   
+### APIException (app/libs/error.py)   
 继承并改写了werkzeug.exceptions的HTTPExcepton类，用于将所有HTTPException转化为json格式返回
 
 如 app/libs/error_code.py (定义各种操作返回信息)
@@ -103,7 +103,7 @@ Flask为web微型服务框架,目录结构原则上可自由设计,本项目提�
         "request": "POST /v1/user/secure"
     }
 
-###jsonify()序列化sqlalchemy模型
+### jsonify()序列化sqlalchemy模型
 Flask自带的jsonify()函数仅能序列化python的字典结构dict,那么经过app/app.py对原JSONEncoder类改写后可对sqlalchemy模型类进行自动序列化
 
 
@@ -127,7 +127,7 @@ Flask自带的jsonify()函数仅能序列化python的字典结构dict,那么经�
     }
 
 ## 样例功能示例
-###建议自行运行框架,利用postman进行测试
+### 建议自行运行框架,利用postman进行测试
 
 1.注册 http://localhost:5000/v1/client/register 
 
