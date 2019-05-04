@@ -4,6 +4,8 @@
 此框架以Flask为基础为实现RESTful api服务进行了拓展和改进.主要对Flask的一些常用插件进行了二次封装.如数据库orm插件sqlalchemy,
 表单数据验证插件wtforms,Flask自带的json序列化类JSONEncoder进行改进等等
 
+阅读文档前应对Flask有一定基础,并对blueprint,sqlalchemy,wtforms等Flask常用插件有一定了解 
+
 ## 安装
 
 1. 安装pipenv包管理工具
