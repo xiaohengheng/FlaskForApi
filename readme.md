@@ -1,7 +1,7 @@
 # FlaskForApi
 
 ## 介绍
-此框架以Flask为基础为了快捷实现Api网络服务而定制.主要对Flask的一些常用插件进行了二次封装.如数据库orm插件sqlalchemy,
+此框架以Flask为基础为实现RESTful api服务进行了拓展和改进.主要对Flask的一些常用插件进行了二次封装.如数据库orm插件sqlalchemy,
 表单数据验证插件wtforms,Flask自带的json序列化类JSONEncoder进行改进等等
 
 ## 安装
