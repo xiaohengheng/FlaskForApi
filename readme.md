@@ -151,12 +151,14 @@ return:
 2. 登陆 http://localhost:5000/v1/token
 
     
+    
     POST
     {
         "account": "123@gmail.com",
         "secret": "1234567",
         "type": 100
     }
+    
     
     
 return:
@@ -171,6 +173,7 @@ return:
     
     
     GET http://localhost:5000/v1/user
+    
     
 return:
     
