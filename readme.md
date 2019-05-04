@@ -148,10 +148,9 @@ return:
     }
     
 
-2. 登陆 http://localhost:5000/v1/token
+2. 登陆 http://localhost:5000/v1/token 
 
-    
-    
+
     POST
     {
         "account": "123@gmail.com",
@@ -159,8 +158,7 @@ return:
         "type": 100
     }
     
-    
-    
+        
 return:
 
 
@@ -169,7 +167,7 @@ return:
     }
 
 
-3. 获取当前用户信息 HTTP header中携带该token信息
+3. 获取当前用户信息 HTTP header中携带该token信息 
     
     
     GET http://localhost:5000/v1/user
