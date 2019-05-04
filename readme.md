@@ -62,7 +62,7 @@ Flask为web微型服务框架,目录结构原则上可自由设计,本项目提�
         
             return bp_v1
    
-   app/api/v1/client.py 中实例化了一个RedPrint对象,url前缀为 'client',并在app/v1/\_\_init\_\_.py中注册在bp_v1上
+   app/api/v1/client.py 中实例化了一个RedPrint对象,url前缀为 'client',并在app/api/v1/\_\_init\_\_.py中注册在bp_v1上
    
 
         api = Redprint('client')
